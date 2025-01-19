@@ -2,9 +2,11 @@
   <a href="https://github.com/drewmarsh/on-premises-active-directory-configuration">
     <img src="/images/active-directory.png" alt="AD Logo">
   </a>
-</p>
 
-<img src="/images/network-diagram.png" alt="Network Diagram">
+  <a href="https://github.com/drewmarsh/on-premises-active-directory-configuration">
+    <img src="/images/network-diagram.png" alt="Network Diagram">
+  </a>
+</p>
 
 # 🧠 Technologies Used
 - Active Directory Domain Services

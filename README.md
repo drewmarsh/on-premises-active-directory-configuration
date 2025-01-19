@@ -50,7 +50,7 @@ After the domain controller fully initializes, minimize the Server Manager windo
 1. Open Server Manager
 2. Click `Manage` > `Add Roles and Features`
 3. Click `Next` 3 times to get to the Server Roles tab
-4. Enable ☑️ Active Directory Domain Services
+4. Enable ☑️ ```Active Directory Domain Services```
 5. Click `Add Features`
 6. Click `Next` 3 more times until reaching the `Install` button
 7. When installation finishes, click `Close`
@@ -67,7 +67,7 @@ In the top-right of the Server Manager window:
 
 In the Active Directory Domain Services Configuration Wizard:
 1. On 'Deployment Configuration' tab:
-   - Tick ☑️ Add a new forest
+   - Tick ☑️ ```Add a new forest```
    - Enter "mydomain.com" in **Root domain name:**
 
 <img src="/images/deployment-config.png" alt="Deployment Config">

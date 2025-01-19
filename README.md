@@ -68,7 +68,7 @@ In the top-right of the Server Manager window:
 In the Active Directory Domain Services Configuration Wizard:
 1. On 'Deployment Configuration' tab:
    - Tick ☑️ Add a new forest
-   - Enter "mydomain.com" in 'Root domain name:'
+   - Enter "mydomain.com" in **Root domain name:**
 
 <img src="/images/deployment-config.png" alt="Deployment Config">
 
@@ -117,9 +117,9 @@ When the credentials are accepted, it will take a moment to load back to the des
 
 1. Right-click `_ADMINS` > `New` > `User`
 2. Enter information:
-   - First name: `Jane`
-   - Last name: `Doe`
-   - User logon name: `Jane_admin`
+   - **First name:** `Jane`
+   - **Last name:** `Doe`
+   - **User logon name:** `Jane_admin`
 
 <img src="/images/new-user.png" alt="New User">
 

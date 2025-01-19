@@ -12,6 +12,7 @@
 - Microsoft Remote Desktop
 - PowerShell
 - Windows Server 2022
+- Windows 10 Pro, version 22H2
 
 # ⚙️ Deployment & Configuration
 
@@ -197,7 +198,7 @@ When the credentials are accepted, it will take a moment to load back to the des
 1. On DC-1 (as Jane_admin):
    - Open PowerShell ISE
    - Click `File` > `New`
-   - In the **Untitled1.ps1** text box, write your own or paste [this](https://github.com/drewmarsh/active-directory-bulk-user-creation) bulk user creation script
+   - In the **Untitled1.ps1** text box, write your own or paste [this bulk user creation script](https://github.com/drewmarsh/active-directory-bulk-user-creation)
    - Click green Run Script button
    - Click red Stop Operation when desired users created
 
@@ -212,7 +213,7 @@ When the credentials are accepted, it will take a moment to load back to the des
 ### 🧪 Testing a Random Newly Created User
 
 1. Attempt to RDP into Client-1 using one of the newly created Active Directory user credentials
-   - If [this](https://github.com/drewmarsh/active-directory-bulk-user-creation) script was used, the password for every account should be "Password1"
+   - If [the provided script](https://github.com/drewmarsh/active-directory-bulk-user-creation) script was used, the password for every account should be "Password1"
 
 <img src="/images/test-new-user.png" alt="Test New User">
 
